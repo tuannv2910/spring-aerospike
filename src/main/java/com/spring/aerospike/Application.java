@@ -1,0 +1,13 @@
+package com.spring.aerospike;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AerospikeWithDockerApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AerospikeWithDockerApplication.class, args);
+    }
+
+}
